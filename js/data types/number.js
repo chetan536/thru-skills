@@ -1,7 +1,6 @@
 
 
-var num =10;
-
+var num = 10;
 
 var flt =10.26;
 

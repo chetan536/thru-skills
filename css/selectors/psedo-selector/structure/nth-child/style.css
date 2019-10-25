@@ -1,0 +1,15 @@
+/* numbers */
+ul  li:nth-child(3){
+    color: red
+}
+
+
+/* even or odd */
+ul  li:nth-child(even){
+    color: red
+}
+
+/* formulas N value starts from 0 */
+ul li:nth-child(2n+1){
+    color: aqua
+}

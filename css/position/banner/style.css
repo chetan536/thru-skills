@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    background-color: aqua;
+    width: 100%;
+    padding: 10%;
+}
+
+.banner{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner h1{
+    position: absolute;
+    top: 40px;
+    width: 100%;;
+    
+    color: blueviolet;
+    text-align: center;
+}

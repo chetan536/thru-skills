@@ -1,0 +1,41 @@
+/* p[id] {
+    color:red;
+} */
+
+p[id=firstpara] {
+    color:red;
+}
+
+/* h1[class]{
+    color: aqua
+} */
+
+
+h1[class='head']{
+    color: aqua
+}
+
+
+/* ~ = search wear head is there */
+/* matching text */
+h1[class~='head']{  
+    color: aqua
+}
+
+
+
+
+/* matches end correctors */
+a[href$='.pdf']{
+    color:gold
+}
+
+/* matches start */
+a[href^="https"]{
+    color: blueviolet
+}
+
+
+
+
+

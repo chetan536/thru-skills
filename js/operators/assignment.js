@@ -1,10 +1,11 @@
 //assignment opperators;
 
 //1.assignment =
-//2.addition assignment =
-//3.subtraction assignment =
-//4.division assignment =
-//5. moduls assignment =
+//2.addition assignment = +=
+//3.subtraction assignment = -=
+//4.multiplucation assignment = *=
+//4.division assignment = /=
+//5. moduls assignment = %=
   
 
 

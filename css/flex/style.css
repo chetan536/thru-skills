@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap; /* wrap-reverse  */
+    /* flex-flow: column; */
+}
+
+.box{
+    height: 200px;
+    /* min-width: 200px;  instead of flexbasics  */ 
+    flex-basis: 200px;
+     flex-grow: 1; 
+    flex-shrink: 1;
+}
+
+.box1{
+    background-color: aqua;
+    /* flex-grow:1; */
+}
+
+.box2{
+    background-color: blue;
+    /* flex-grow: 2; */
+}
+
+.box3{
+    background-color: brown;
+    /* flex-grow: 3; */
+}

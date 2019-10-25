@@ -38,7 +38,7 @@ var fullname = firstname + lastname ;
 console.log(fullname);
 
 
-var about ="hellow I, am "+" " + firstname + "" + lastname + ", I am" +" "+ age + "years old";
+var about ="hellow I, am "+" " + firstname + "" + lastname + ", I am" +" "+ age + " " + "years old";
 console.log(about);
 
 var numstr = "hellow" + 10;
@@ -54,8 +54,8 @@ console.log(val);
 
 //string literal
 
-var strliteral = `hellow I'm "JS"
-I am famous now.`;
+var strliteral = `hellow I'm "JS" 
+I am famous now .`;
 console.log(strliteral);
 console.log(typeof strliteral);
 
@@ -64,8 +64,9 @@ var abt = `hellow I'm ${firstname} ${lastname}, I am ${age} years old, ${10+20}`
 console.log(abt);
 
 
+//var s = new String('hellow';)
 
-
+console.log(abt, length);
 
 
 

@@ -1,0 +1,44 @@
+/* 
+active,
+hover,
+visited
+*/
+
+a:hover{
+    color: brown;
+}
+
+/*  */
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

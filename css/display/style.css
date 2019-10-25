@@ -1,0 +1,32 @@
+
+/*
+block,
+inline'
+inline-block
+*/
+
+
+
+.link-microsoft{
+    display: block;
+}
+
+p{
+    display: inline-block;
+    border: 1px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.inline-para{
+    display: inline-block;
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+}
+
+.para{
+    /* display none*/
+    visibility: hidden;
+}

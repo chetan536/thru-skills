@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto slab', serif;
+
+}
+
+h1{
+    font-weight: 400; 
+    font-size: 20;
+    text-transform:lowercase /*capitalize uppercase lowercase*/
+}
+
+p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;/*left right corner*/
+    color: rgba(0,255,0,1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
