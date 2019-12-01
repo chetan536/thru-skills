@@ -1,38 +1,13 @@
-var lan = "js";
-switch(lan){
-    case 'js':
-        console.log('lan is js');
+var lang = "Java";
 
-break;
-case 'python';
-console.log('lan is python');
 
-break;
-default :
-console.log('chose a lang')
-
+switch (lang) {
+    case 'JS' :
+        console.log('Lang is JS');
+    break;
+    case 'Python' : 
+        console.log('Lang is Python');
+    break;
+    default : 
+        console.log('Choose a lang')
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

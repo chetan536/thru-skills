@@ -1,47 +1,68 @@
-//repetative executions
-//1 to 10
+// loops
 
-for (var i=1; i <= 10; i++){
-    console.log(i)
 
-}
+// infinite loop
 
-//10 to 1
-for (var i = 10; i>=1; i--){
+for(var i = 1; i<=10 ;i++) {
     console.log(i);
 }
 
-for (var j = 1; j <= 10; j++){
-    console.log(`2 x ${j} = ${2*j}`);
+// for(;;) {
+//     console.log(i)
+// }
+
+for(var i = 10; i >=1; i--) {
+    console.log(i);
 }
 
-/*var i=1
-for(;;){
-    console.log(i)
-} */
-console.log(`upto 10`);
-for (var a = 1; a<=10; a++){
-    for (var b = 1; b<=10; b++ ){
-        console.log(a + `x` + b + `=` + a*b);
+
+for(var i = 1; i<= 10; i++) {
+    // console.log(`2 x ${i} = ${2*i}`);
+
+    console.log("2 x "+i+ " = "+ 2*i);
+}
+
+
+for(var i = 2; i<=10; i++) {
+
+    for(var j = 1; j<= 10; j++) {
+        console.log(`${i} x ${j} = ${i*j}`)
     }
 }
 
+// iterate over an array
 
-//iterate over an array
-var names = [`js`, `node`, `express`, `mongodb` ];
-for (var z = 0; z < names.length; z++){
-    console.log(names[z]);
+var names = ['JS','Node','Express', 'MongoDB'];
+
+
+// console.log(names[0]);
+// console.log(names[1]);
+
+console.log(names.length);
+for(var i =0; i < names.length; i++) {
+    console.log(names[i]);
 }
 
-//wap to create new array which multiplies of 2 given array
-var mul = [2,5,10,60];
-newMul = [];
-for (var i=0; i < mul.length; i++){
-    mul[i] = mul[i] * 2;
-    //newMul.push(mul[i] * 2);
+
+// WAP to create new Array which has multiple of 2 to given
+
+var nums = [2,4,56,60,25];
+
+var newArr = [];
+
+for(var i =0 ; i < nums.length ; i++) {
+    // newArr[i] = nums[i] *2 ;
+
+    newArr.push(nums[i]*2);
+
 }
 
-console.log(mul);
+console.log(newArr);
 
-// reverse an array 
-//count of  even and odd elements
+
+// Reverse an array
+// Count of even and odd elements
+
+
+// for of
+// for in

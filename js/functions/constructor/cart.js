@@ -1,31 +1,31 @@
-// /*
-// *item{
-//     name:'iphone'
-//     price=1000
-// }
-// */
+/**
+ * item {
+ *    name: 'Iphone'
+ *    price:1000
+ * }
+ */
 
-// function cart() {
-//     this.items = [];
+function Cart () {
+    this.items = [];
+}
 
-// }
+Cart.prototype.add = function(item) {
+    this.items.push(item);
+}
 
-// cart.prototype.add = function(item) {
-//     this.items.push(item);
-// }
+Cart.prototype.totalPrice = function(discount) {
+    // write the logic to return total price
+}
 
-// cart.prototype.totalPrice = function() {
-//     // write the logic to eturn total price
-// }
+Cart.prototype.removeItem = function(index) {
+    // write the logic to remove a item from array
+}
 
-// cart.prototype.removeitem = function() [
-//     // write the logic to remove a item from array
-// ]
 
-// cart.prototype.listitems = function() {
-// //   return the list of items
-// }
+Cart.prototype.listItems = function() {
+    // return the list of items
+}
 
-// let mycart = new cart();
+let myCart = new Cart();
 
-// mycart.add({name:'mac',price:100,quantity:1});
+myCart.add({name:'Mac',price:100,quantity:1})

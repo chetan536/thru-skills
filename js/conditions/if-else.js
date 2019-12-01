@@ -1,73 +1,59 @@
-var name = "js";
-
-console.log(name);
-
-console.log(name=="js");
-
-//if statement
-
-// if(condition){
-//     if block
-//     body of if statement
-// }
+var name = "Java";
 
 
-if(name=="js"){
-    console.log('inside if block',name);
+console.log(name == "JS");
+
+// if statement
+
+if(name == "JS") {
+    // if block
+    console.log('Inside if block',name)
+} else {
+    console.log('Name property not matched')
 }
-// true it executes
-
-//else executes when it is false
-
-var language = 'js';
-
-// if(language=='js');{
-// console.log('language is javascript');
-// }
-// else{}
-//     console.log('choose a language');
-// }
 
 
-//example1
+var language = 'Python';
+
+
+if(language == 'JS') {
+    console.log('Language is Javascript')
+} else if(language == 'Java') {
+    console.log('Language is Java')
+}else if (language == 'Python'){
+    console.log('Language is Python')
+}else {
+    console.log('Choose a language')
+}
+
 
 var num = 20;
-if(num%2==0){
-    console.log('num is even');
+
+
+if(num % 2 == 0) {
+    console.log('Number is even')
+}else {
+    console.log('Number is odd')
 }
-else if() {
-    console.log('num is odd');
+
+
+
+var actualPrice = 10000;
+
+var discountedPrice = 0;
+
+
+if(actualPrice <= 2000) {
+    discountedPrice = actualPrice;
+}else if (actualPrice > 2000 && actualPrice <= 5000) {
+    discountedPrice = actualPrice - 500
+}else if( actualPrice >= 10000) {
+    discountedPrice = actualPrice- 1000;
 }
 
+console.log(discountedPrice);
 
-//example2
+// ternary operator
+var evnOrOdd = (num%2 == 0) ? 'Even' :'Odd';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(evnOrOdd);

@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    align-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 25px;
+}
+
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.column{
+    float: left;
+    width: 50px;
+    padding: 5px;
+}
+
+
+.column p{
+    text-align: justify;
+}
+
+@media sceen and (max-width:600px){
+    .column{
+        width: 100%;
+    }
+}
+
+
+@media all and (min-width:400px)and (max-width:800px){
+    header{
+        background-color: aqua;
+    }
+}

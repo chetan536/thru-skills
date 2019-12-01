@@ -44,3 +44,5 @@ function acceptcallback(cb){
 acceptcallback(function(){
     console.log('i am passed as cb');
 });
+
+foo();
