@@ -1,32 +1,34 @@
-let EventEmitter = required('event').EventEmitter;
+let EventEmitter = require('events').EventEmitter;
+let util = require('util');
+
 
 
 let db = {
     users: [
-        {name:'js', gender:'Female'},
-        {name:'Javascript',gender:'female'}
+        {name:'JS', gender:'Female'},
+        {name:'JavaScript', gender:'Female'}
     ]
 }
 
 
-function UserList(){
-    //  ingerits its own property only
+function UserList() {
+
+    // inherits its own property only
     EventEmitter.call(this);
-
 }
-// inherit prototype properties
-util.inherit(UserList,EventEmitter);
 
+// inherits prototype properties 
+util.inherits(UserList, EventEmitter);
 
-UserList.prototype.save = function (usrObj){
-    console.lo
-    ('saving User');
+UserList.prototype.save = function (usrObj) {
+    console.log('Saving User');
     db.users.push(usrObj);
-    yhis.emit('save');
+    this.emit('save');
 }
 
 UserList.prototype.all = function() {
-    console.log('User List')
+    console.log('Users List');
+    console.log(db.users)
     return db.users;
 }
 

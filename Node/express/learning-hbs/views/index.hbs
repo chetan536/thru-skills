@@ -1,0 +1,35 @@
+ <h1>Welcome to my App</h1>
+
+    {{!-- String Data --}}
+    <h2>{{name}}</h2>
+
+    {{!-- HTML Data --}}
+    {{{htmlData}}}
+
+
+    <ul>
+        {{!-- Loop --}}
+        {{#each hobbies}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+    {{!-- Conditional Statement --}}
+    {{#if eligibility}}
+        <p>You are eligible</p>
+    {{else}}
+        <p>You are not eligible</p>
+    {{/if}}
+
+    {{!-- Object properties --}}
+    <p>{{education.degree}}</p>
+    <p>{{education.grade}}</p>
+    <p>{{education.YOP}}</p>
+    
+    {{!-- List of Products --}}
+    {{#each products}}
+        <div>
+            <h3>{{this.name}}</h3>
+            <p>{{this.price}}</p>
+        </div>
+    {{/each}}
