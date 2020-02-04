@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+            {{#each blogCategory}}
+            <a class="p-2 text-muted" href="#">{{this}}</a>
+            {{/each}}
+        </nav>
+    </div>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-12 px-0">
+            <h1 class="display-4 font-italic">{{featuredBlog.name}}</h1>
+            <p class="lead my-3">{{featuredBlog.description}}</p>
+            <p class="lead mb-0"><a href="/blog/{{featuredBlog.alias}}" class="text-white font-weight-bold">Continue reading...</a></p>
+        </div>
+    </div>
+
+    <div class="row my-2">
+        {{#each blogs}}
+            <div class="col-md-12">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">{{this.name}}</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">{{this.description}}</p>
+                        <a href="/blog/{{this.alias}}" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="/images/javascript.png" alt="">
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+
+</div>

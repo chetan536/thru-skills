@@ -1,0 +1,50 @@
+<main role="main">
+
+    <div class="album py-2 bg-light">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 project-sb">
+                    {{!-- Related Projects --}}
+                    <div>
+                        <h1>Categories</h1>
+                        {{#each project.relatedProjects}}
+                        <div>
+                            <a href="/project/{{this.link}}">{{this.name}}</a>
+                        </div>
+                       {{/each}}
+                    </div>
+                    <hr>
+                    {{!-- Resources --}}
+                    <div>
+                        <h1>Archives</h1>
+                        <div>
+                            <a href="#">JS Console</a>
+                        </div>
+                        <div>
+                            <a href="#">Number Guessing Game</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{project.name}}</li>
+                        </ol>
+                    </nav>
+                    <h1>{{blog.name}}</h1>
+
+                    <p>{{blog.description}}</p>
+
+                    <img src="/images/javascript.png" alt="{{blog.alias}}">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</main>

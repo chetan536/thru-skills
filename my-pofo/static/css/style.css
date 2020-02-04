@@ -1,0 +1,8 @@
+.project-sb {
+    border-right: 1px solid grey;
+}
+
+.active {
+    color: white !important;
+    border-bottom: 2px solid white;
+}
